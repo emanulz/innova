@@ -9,8 +9,6 @@
   <meta content="" name="keywords">
   <meta content="" name="description">
 
-  <?php wp_head(); ?>
-
   <!-- Favicons -->
   <!-- <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon"> -->
@@ -774,7 +772,6 @@
   <script src="lib/superfish/hoverIntent.js"></script>
   <script src="lib/superfish/superfish.min.js"></script>
   <script src="lib/magnific-popup/magnific-popup.min.js"></script> -->
-  <?php wp_footer(); ?>
   <!-- Contact Form JavaScript File -->
   <script src="<?php echo get_template_directory_uri(); ?>/contactform/contactform.js"></script>
   <!-- <script src="contactform/contactform.js"></script> -->
