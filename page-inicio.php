@@ -699,7 +699,7 @@
             <div class="form">
               <div id="sendmessage">Su mensaje ha sido enviado, Gracias!</div>
               <div id="errormessage"></div>
-              <form action="mailto:info@innovacomunicacion.net" method="post" role="form" class="contactForm">
+              <form target="_blank" action="mailto:info@innovacomunicacion.net" method="post" role="form" class="contactForm">
                 <div class="form-row">
                   <div class="form-group col-lg-6">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Su Nombre" data-rule="minlen:4" data-msg="Por favor ingrese su nombre, de más de 4 caracteres" />

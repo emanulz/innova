@@ -122,28 +122,6 @@ function html5blank_styles()
     wp_enqueue_style('html5blank'); // Enqueue it!
 }
 
-function wpse_enqueue_page_template_styles() {
-    if ( is_page_template( 'page-inicio.php' ) ) {
-        wp_register_style('bootstrap', get_template_directory_uri() . '/lib/bootstrap/css/bootstrap.min.css', array(), '1.0', 'all');
-        wp_enqueue_style('bootstrap'); // Enqueue it!
-
-        wp_register_style('animate', get_template_directory_uri() . '/lib/animate/animate.min.css', array(), '1.0', 'all');
-        wp_enqueue_style('animate'); // Enqueue it!
-
-        wp_register_style('font-awesome', get_template_directory_uri() . 'lib/font-awesome/css/font-awesome.min.css', array(), '1.0', 'all');
-        wp_enqueue_style('font-awesome'); // Enqueue it!
-
-        wp_register_style('ionicons', get_template_directory_uri() . 'lib/ionicons/css/ionicons.min.css', array(), '1.0', 'all');
-        wp_enqueue_style('ionicons'); // Enqueue it!
-
-        wp_register_style('magnific-popup', get_template_directory_uri() . 'lib/magnific-popup/magnific-popup.css', array(), '1.0', 'all');
-        wp_enqueue_style('magnific-popup'); // Enqueue it!
-
-        wp_register_style('home', get_template_directory_uri() . 'css/style.css', array(), '1.0', 'all');
-        wp_enqueue_style('home'); // Enqueue it!
-    }
-}
-
 
 // Register HTML5 Blank Navigation
 function register_html5_menu()
@@ -371,7 +349,6 @@ add_action('init', 'register_html5_menu'); // Add HTML5 Blank Menu
 add_action('init', 'create_post_type_html5'); // Add our HTML5 Blank Custom Post Type
 add_action('widgets_init', 'my_remove_recent_comments_style'); // Remove inline Recent Comment Styles from wp_head()
 add_action('init', 'html5wp_pagination'); // Add our HTML5 Pagination
-add_action( 'wp_enqueue_scripts', 'wpse_enqueue_page_template_styles' ); // Add custom styles for pages
 
 // Remove Actions
 remove_action('wp_head', 'feed_links_extra', 3); // Display the links to the extra feeds such as category feeds
