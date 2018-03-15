@@ -1,0 +1,22 @@
+{
+  "name": "innova-wp-theme",
+  "version": "1.0.0",
+  "description": "Theme for Innova webpage",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --watch --display-error-details",
+    "prod": "NODE_ENV='production' webpack"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.28.10",
+    "eslint": "^4.18.2",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.1.1",
+    "webpack-livereload-plugin": "^2.0.0"
+  }
+}
