@@ -59,11 +59,11 @@
         <ul class="nav-menu">
           <li class="menu-active"><a href="#intro">Inicio</a></li>
           <li><a href="#about">Nosotros</a></li>
-          <li><a href="#features">Características</a></li>
+          <li><a href="#features">Especialidades</a></li>
           <li><a href="#pricing">Precios</a></li>
-          <li><a href="#team">Equipo</a></li>
+          <!-- <li><a href="#team">Equipo</a></li> -->
           <li><a href="#gallery">Galería</a></li>
-          <li class="menu-has-children"><a href="">Blog</a>
+          <!-- <li class="menu-has-children"><a href="">Blog</a>
             <ul>
               <li><a href="#">Elemento 1</a></li>
               <li class="menu-has-children"><a href="#">Elemento 2</a>
@@ -79,7 +79,7 @@
               <li><a href="#">Elemento 4</a></li>
               <li><a href="#">Elemento 5</a></li>
             </ul>
-          </li>
+          </li> -->
           <li><a href="#contact">Contacto</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
@@ -141,17 +141,22 @@
             <h2>Parte de nuestra esencia</h2>
             <!-- <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3> -->
             <p>
-              Nos especializamos en dirigir a nuestros clientes con excelencia y altos estándares hacia un adecuado posicionamiento de marca.
+              Creemos en la importancia de una identidad de marca que exprese y comunique la esencia de su empresa.
+              <br>
+              <br>
+              Creemos en la necesidad de contar bien la historia, la personalidad de su marca, ya que los clientes necesitan conocerla, vivirla, recordarla y contarla.
+              <br>
+              <br>
+              Comprendemos la importancia de expresarse en el momento correcto por los medios correctos.
 
-              Creemos en la esencia de la marca como elemento diferenciador en el mercado y nos esforzamos, para que el conjunto de elementos integrados brinden la comunicación clara y asertiva para con el mercado meta.
 
             </p>
 
-            <ul>
-              <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="ion-android-checkmark-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-            </ul>
+            <!-- <ul>
+              <li><i class="ion-android-checkmark-circle"></i> <p>Creemos en la importancia de una identidad de marca que exprese y comunique la esencia de su empresa.</p></li>
+              <li><i class="ion-android-checkmark-circle"></i> Creemos en la necesidad de contar bien la historia, la personalidad de su marca, ya que los clientes necesitan conocerla, vivirla, recordarla y contarla.</li>
+              <li><i class="ion-android-checkmark-circle"></i> Comprendemos la importancia de expresarse en el momento correcto por los medios correctos.</li>
+            </ul> -->
 
             <!-- <p>
               Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Libero justo laoreet sit amet cursus sit amet dictum sit. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec
@@ -187,23 +192,23 @@
 
               <div class="col-lg-6 col-md-6 box wow fadeInRight">
                 <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-                <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p>
+                <h4 class="title"><a href="">Branding</a></h4>
+                <p class="description">Asesoramos a nuestros clientes para construir y desarrollar la identidad visual, verbal y social, fortaleciendo  los elementos integradores de la esencia de marca.</p>
               </div>
               <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.1s">
                 <div class="icon"><i class="ion-ios-flask-outline"></i></div>
-                <h4 class="title"><a href="">Dolor Sitema</a></h4>
-                <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata noble dynala mark.</p>
+                <h4 class="title"><a href="">Desarrollo y sitio web</a></h4>
+                <p class="description">Materializamos la imagen visual, estilo y lenguaje para permanecer en el tiempo, con herramientas que acercan la empresa al cliente.</p>
               </div>
               <div class="col-lg-6 col-md-6 box wow fadeInRight data-wow-delay="0.2s"">
                 <div class="icon"><i class="ion-social-buffer-outline"></i></div>
-                <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur teleca starter sinode park ledo.</p>
+                <h4 class="title"><a href="">Comunicación</a></h4>
+                <p class="description">Desarrollamos estrategias de comunicación para la sostenibilidad y desarrollo de su empresa, con objetivos claros y enfocados en su target.</p>
               </div>
               <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.3s">
                 <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-                <h4 class="title"><a href="">Magni Dolores</a></h4>
-                <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum dinoun trade capsule.</p>
+                <h4 class="title"><a href="">Producción gráfica</a></h4>
+                <p class="description">Elaboramos contenido creativo y con un mensaje dirigido que conecta su marca a los sentidos del cliente.</p>
               </div>
             </div>
 
@@ -226,10 +231,12 @@
             <div class="col-12">
               <img src="<?php echo get_bloginfo('template_url') ?>/img/advanced-feature-1.jpg" alt="" class="advanced-feature-img-right wow fadeInRight">
               <div class="wow fadeInLeft">
-                <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse</h2>
+                <h2>Branding</h2>
                 <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
+                <p class="wow fadeInRight" data-wow-duration="0.5s">Desarrollar una adecuada identidad visual, verbal y social, permiten a la marca expresarse en su más amplia dimensión.</p>
+                <i class="ion-ios-barcode-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
+                <p class="wow fadeInRight" data-wow-duration="0.5s">Definir la esencia de la marca es una clave para toda empresa que desee caminar sosteniblemente hacia la grandeza.</p>
               </div>
             </div>
           </div>
@@ -242,7 +249,7 @@
             <div class="col-12">
               <img src="<?php echo get_bloginfo('template_url') ?>/img/advanced-feature-2.jpg" alt="" class="advanced-feature-img-left">
               <div class="wow fadeInRight">
-                <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse</h2>
+                <h2>Desarrollo de sitios web y aplicaciones</h2>
                 <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
                 <p class="wow fadeInRight" data-wow-duration="0.5s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                 <i class="ion-ios-color-filter-outline wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>
@@ -262,11 +269,9 @@
 
               <img src="<?php echo get_bloginfo('template_url') ?>/img/advanced-feature-3.jpg" alt="" class="advanced-feature-img-right wow fadeInRight">
               <div class="wow fadeInLeft">
-                <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse</h2>
+                <h2>Investigación</h2>
                 <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                <i class="ion-ios-albums-outline"></i>
-                <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Conocer la opinión de nuestros clientes, gustos y preferencias, conectar la esencia de la empresa con los sentidos del cliente y saber que piensan de nosotros es una apuesta estratégica en las empresas de primer orden, con estándares que responden a la fidelización del cliente.</p>
               </div>
             </div>
           </div>
@@ -282,7 +287,7 @@
         <div class="row">
           <div class="col-lg-9 text-center text-lg-left">
             <h3 class="cta-title">Contáctenos ahora</h3>
-            <p class="cta-text"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="cta-text"> Permítanos asesorarle y llevar a su empresa adonde siempre ha soñado.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
             <a class="cta-btn align-middle" href="#">Contacto</a>
@@ -309,23 +314,23 @@
           <div class="col-lg-6">
             <div class="box wow fadeInLeft">
               <div class="icon"><i class="ion-ios-stopwatch-outline"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident etiro rabeta lingo.</p>
+              <h4 class="title"><a href="">Publicidad y comunicación digital</a></h4>
+              <p class="description">Gestionar la publicidad adecuada en el momento adecuado por el medio correcto nos posiciona en un lugar clave en la mente de nuestros clientes.</p>
             </div>
           </div>
 
           <div class="col-lg-6">
             <div class="box wow fadeInRight">
               <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
+              <h4 class="title"><a href="">Investigación</a></h4>
+              <p class="description">Acercase al cliente; saber que piensa y dejarle expresar su satisfacción, gustos y preferencias se vuelven elementos esenciales para su empresa.</p>
             </div>
           </div>
 
           <div class="col-lg-6">
             <div class="box wow fadeInLeft">
               <div class="icon"><i class="ion-ios-heart-outline"></i></div>
-              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+              <h4 class="title"><a href="">Mantenimiento de Software y Hardware</a></h4>
               <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur trinige zareta lobur trade.</p>
             </div>
           </div>
@@ -333,7 +338,7 @@
           <div class="col-lg-6">
             <div class="box wow fadeInRight">
               <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
+              <h4 class="title"><a href="">Integración de Redes y sistemas</a></h4>
               <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum rideta zanox satirente madera</p>
             </div>
           </div>
@@ -394,14 +399,12 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="box wow fadeInLeft">
-              <h3>Gratis</h3>
-              <h4><sup>$</sup>0<span> mes</span></h4>
+              <h3>Emprendedor</h3>
+              <h4><sup>$</sup>150<span> mes</span></h4>
               <ul>
-                <li><i class="ion-android-checkmark-circle"></i> Quam adipiscing vitae proin</li>
-                <li><i class="ion-android-checkmark-circle"></i> Nec feugiat nisl pretium</li>
-                <li><i class="ion-android-checkmark-circle"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="ion-android-checkmark-circle"></i> Pharetra massa massa ultricies</li>
-                <li><i class="ion-android-checkmark-circle"></i> Massa ultricies mi quis hendrerit</li>
+                <li><i class="ion-android-checkmark-circle"></i> Plan de Redes Sociales</li>
+                <li><i class="ion-android-checkmark-circle"></i> Generación marketing de contenido</li>
+                <li><i class="ion-android-checkmark-circle"></i> Frases de posicionamiento</li>
               </ul>
               <a href="#" class="get-started-btn">Ver Oferta</a>
             </div>
@@ -409,14 +412,12 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="box featured wow fadeInUp">
-              <h3>Empresas</h3>
-              <h4><sup>$</sup>29<span> mes</span></h4>
+              <h3>Visionario</h3>
+              <h4><sup>$</sup>200<span> mes</span></h4>
               <ul>
-                <li><i class="ion-android-checkmark-circle"></i> Quam adipiscing vitae proin</li>
-                <li><i class="ion-android-checkmark-circle"></i> Nec feugiat nisl pretium</li>
-                <li><i class="ion-android-checkmark-circle"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="ion-android-checkmark-circle"></i> Pharetra massa massa ultricies</li>
-                <li><i class="ion-android-checkmark-circle"></i> Massa ultricies mi quis hendrerit</li>
+                <li><i class="ion-android-checkmark-circle"></i> Definición de estilo y personalidad de empresa en Redes Sociales</li>
+                <li><i class="ion-android-checkmark-circle"></i> Estrategias de posicionamiento</li>
+                <li><i class="ion-android-checkmark-circle"></i> Generación marketing de venta</li>
               </ul>
               <a href="#" class="get-started-btn">Ver Oferta</a>
             </div>
@@ -424,14 +425,12 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="box wow fadeInRight">
-              <h3>Desarroladores</h3>
-              <h4><sup>$</sup>49<span> mes</span></h4>
+              <h3>Posicionado</h3>
+              <h4><sup>$</sup>400<span> mes</span></h4>
               <ul>
-                <li><i class="ion-android-checkmark-circle"></i> Quam adipiscing vitae proin</li>
-                <li><i class="ion-android-checkmark-circle"></i> Nec feugiat nisl pretium</li>
-                <li><i class="ion-android-checkmark-circle"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="ion-android-checkmark-circle"></i> Pharetra massa massa ultricies</li>
-                <li><i class="ion-android-checkmark-circle"></i> Massa ultricies mi quis hendrerit</li>
+                <li><i class="ion-android-checkmark-circle"></i> Estrategias de marketing digital</li>
+                <li><i class="ion-android-checkmark-circle"></i> Proyección de esencia de marc</li>
+                <li><i class="ion-android-checkmark-circle"></i> Generación de oportunidades de negocio</li>
               </ul>
               <a href="#" class="get-started-btn">Ver Oferta</a>
             </div>
@@ -517,7 +516,7 @@
     <!--==========================
       Our Team Section
     ============================-->
-    <section id="team" class="section-bg">
+    <!-- <section id="team" class="section-bg">
       <div class="container">
         <div class="section-header">
           <h3 class="section-title">Nuestro equipo</h3>
@@ -583,7 +582,7 @@
         </div>
 
       </div>
-    </section><!-- #team -->
+    </section><!-- #team --> -->
 
     <!--==========================
       Gallery Section
@@ -661,7 +660,7 @@
           <div class="col-lg-4 col-md-4">
             <div class="contact-about">
               <h3>Innova</h3>
-              <p>Nos interesa establecer buenas relaciones con nuestros clientes, contáctenos.</p>
+              <p>Ofrecemos servicios estratégicos y creativos que mejoran y magnifican su marca, para desempeñar un papel significativo en la vida de los clientes y así seguir construyendo su negocio.</p>
               <div class="social-links">
                 <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
                 <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
