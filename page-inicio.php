@@ -353,7 +353,7 @@
     <section id="clients">
       <div class="container">
 
-        <div class="row wow fadeInUp">
+        {% comment %} <div class="row wow fadeInUp">
 
           <div class="col-md-2">
             <img src="<?php echo get_bloginfo('template_url') ?>/img/clients/client-1.png" alt="">
@@ -379,7 +379,7 @@
             <img src="<?php echo get_bloginfo('template_url') ?>/img/clients/client-6.png" alt="">
           </div>
 
-        </div>
+        </div> {% endcomment %}
       </div>
     </section><!-- #more-features -->
 
@@ -392,7 +392,9 @@
         <div class="section-header">
           <h3 class="section-title">Precios</h3>
           <span class="section-divider"></span>
+          <!--==========================
           <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          ============================-->
         </div>
 
         <div class="row">
@@ -592,7 +594,6 @@
         <div class="section-header">
           <h3 class="section-title">Galería</h3>
           <span class="section-divider"></span>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
         </div>
 
         <div class="row no-gutters">
