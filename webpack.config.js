@@ -49,7 +49,6 @@ const stylesConfig = Object.assign({}, config, {
 
 })
 
-
 module.exports = [
   stylesConfig
 ]
