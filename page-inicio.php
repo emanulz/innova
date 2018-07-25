@@ -31,6 +31,7 @@
   <!-- Main Stylesheet File -->
   <!-- <link href="css/style.css" rel="stylesheet"> -->
   <link href="<?php echo get_template_directory_uri(); ?>/css/style.css" rel="stylesheet">
+  <link href="<?php echo get_template_directory_uri(); ?>/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
     Theme Name: Avilon
@@ -122,7 +123,7 @@
       About Us Section
     ============================-->
     <section id="about" class="section-bg">
-      <div class="container-fluid">
+      <div class="container">
         <div class="section-header">
           <h3 class="section-title">Sobre Nosotros</h3>
           <span class="section-divider"></span>
@@ -131,11 +132,13 @@
 
           </p>
         </div>
-
+  
         <div class="row">
+        <!--
           <div class="col-lg-6 about-img wow fadeInLeft">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/about-img.jpg" alt="">
+            <img src="<?php echo get_bloginfo('template_url') ?>/img/new/splash.jpg" alt="">
           </div>
+          -->
 
           <div class="col-lg-6 content wow fadeInRight">
             <h2>Parte de nuestra esencia</h2>
@@ -175,18 +178,14 @@
 
         <div class="row">
 
-          <div class="col-lg-8 offset-lg-4">
+          <div class="col-lg-12">
             <div class="section-header wow fadeIn" data-wow-duration="1s">
               <h3 class="section-title">Nuestras especialidades</h3>
               <span class="section-divider"></span>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-5 features-img">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/product-features.png" alt="" class="wow fadeInLeft">
-          </div>
-
-          <div class="col-lg-8 col-md-7">
+          <div class="col-lg-12 col-md-12">
 
             <div class="row">
 
@@ -229,7 +228,7 @@
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <img src="<?php echo get_bloginfo('template_url') ?>/img/advanced-feature-1.jpg" alt="" class="advanced-feature-img-right wow fadeInRight">
+              <img src="<?php echo get_bloginfo('template_url') ?>/img/new/kayaks2.jpg" alt="" class="advanced-feature-img-right wow fadeInRight">
               <div class="wow fadeInLeft">
                 <h2>Branding</h2>
                 <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
@@ -247,7 +246,7 @@
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <img src="<?php echo get_bloginfo('template_url') ?>/img/advanced-feature-2.jpg" alt="" class="advanced-feature-img-left">
+              <img src="<?php echo get_bloginfo('template_url') ?>/img/new/macbook2.jpg" alt="" class="advanced-feature-img-left">
               <div class="wow fadeInRight">
                 <h2>Desarrollo de sitios web y aplicaciones</h2>
                 <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
@@ -267,7 +266,8 @@
           <div class="row">
             <div class="col-12">
 
-              <img src="<?php echo get_bloginfo('template_url') ?>/img/advanced-feature-3.jpg" alt="" class="advanced-feature-img-right wow fadeInRight">
+              <!-- <img src="<?php echo get_bloginfo('template_url') ?>/img/advanced-feature-3.jpg" alt="" class="advanced-feature-img-right wow fadeInRight"> -->
+              <img src="<?php echo get_bloginfo('template_url') ?>/img/new/sound2.jpg" alt="" class="advanced-feature-img-right wow fadeInRight">
               <div class="wow fadeInLeft">
                 <h2>Investigación</h2>
                 <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
@@ -285,11 +285,11 @@
     <section id="call-to-action">
       <div class="container">
         <div class="row">
-          <div class="col-lg-9 text-center text-lg-left">
-            <h3 class="cta-title">Contáctenos ahora</h3>
-            <p class="cta-text"> Permítanos asesorarle y llevar a su empresa adonde siempre ha soñado.</p>
+          <div class="col-lg-6 text-center text-lg-left">
+            <h3 class="cta-title">Innova</h3>
+            <p class="cta-text"> Ofrecemos servicios estratégicos y creativos que mejoran y magnifican su marca, para desempeñar un papel significativo en la vida de los clientes y así seguir construyendo su negocio.</p>
           </div>
-          <div class="col-lg-3 cta-btn-container text-center">
+          <div class="col-lg-6 cta-btn-container text-center">
             <a class="cta-btn align-middle" href="#">Contacto</a>
           </div>
         </div>
@@ -313,7 +313,7 @@
 
           <div class="col-lg-6">
             <div class="box wow fadeInLeft">
-              <div class="icon"><i class="ion-ios-stopwatch-outline"></i></div>
+              <div class="icon"><i class="ion-images"></i></div>
               <h4 class="title"><a href="">Publicidad y comunicación digital</a></h4>
               <p class="description">Gestionar la publicidad adecuada en el momento adecuado por el medio correcto nos posiciona en un lugar clave en la mente de nuestros clientes.</p>
             </div>
@@ -329,7 +329,7 @@
 
           <div class="col-lg-6">
             <div class="box wow fadeInLeft">
-              <div class="icon"><i class="ion-ios-heart-outline"></i></div>
+              <div class="icon"><i class="ion-laptop"></i></div>
               <h4 class="title"><a href="">Mantenimiento de Software y Hardware</a></h4>
               <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur trinige zareta lobur trade.</p>
             </div>
@@ -337,7 +337,7 @@
 
           <div class="col-lg-6">
             <div class="box wow fadeInRight">
-              <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
+              <div class="icon"><i class="ion-wifi"></i></div>
               <h4 class="title"><a href="">Integración de Redes y sistemas</a></h4>
               <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum rideta zanox satirente madera</p>
             </div>
@@ -350,10 +350,11 @@
     <!--==========================
       Clients
     ============================-->
+    <!--==========================
     <section id="clients">
       <div class="container">
 
-        {% comment %} <div class="row wow fadeInUp">
+        <div class="row wow fadeInUp">
 
           <div class="col-md-2">
             <img src="<?php echo get_bloginfo('template_url') ?>/img/clients/client-1.png" alt="">
@@ -379,9 +380,10 @@
             <img src="<?php echo get_bloginfo('template_url') ?>/img/clients/client-6.png" alt="">
           </div>
 
-        </div> {% endcomment %}
+        </div>
       </div>
-    </section><!-- #more-features -->
+    </section>
+    -->
 
     <!--==========================
       Pricing Section
@@ -446,7 +448,7 @@
     <!--==========================
       Frequently Asked Questions Section
     ============================-->
-    <section id="faq">
+    <!-- <section id="faq">
       <div class="container">
 
         <div class="section-header">
@@ -513,7 +515,8 @@
         </ul>
 
       </div>
-    </section><!-- #faq -->
+    </section> -->
+    <!-- #faq -->
 
     <!--==========================
       Our Team Section
@@ -779,6 +782,8 @@
   <!-- Template Main Javascript File -->
   <script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
   <!-- <script src="js/main.js"></script> -->
+
+  <script src="http://localhost:35729/livereload.js"></script>
 
 </body>
 </html>

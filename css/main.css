@@ -1,2 +1,47 @@
+#intro {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: gray;
+  background-image: url("/wp-content/themes/innova/img/new/faro.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.intro-text {
+  font-family: 'Proxima Nova Bold' sans-serif !important;
+  z-index: 100; }
+
+#about {
+  background-image: url("/wp-content/themes/innova/img/new/splash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px; }
+
+#features {
+  background: -moz-linear-gradient(45deg, #ffb866 0%, #cf6d01 100%);
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #ffb866), color-stop(100%, #cf6d01));
+  background: -webkit-linear-gradient(45deg, #ffb866 0%, #cf6d01 100%);
+  background: -o-linear-gradient(45deg, #ffb866 0%, #cf6d01 100%);
+  background: -ms-linear-gradient(45deg, #ffb866 0%, #cf6d01 100%);
+  background: linear-gradient(45deg, #ffb866 0%, #cf6d01 100%);
+  height: 800px;
+  color: white;
+  font-family: 'Proxima Nova Bold' sans-serif !important; }
+
+#call-to-action {
+  background-image: url(/wp-content/themes/innova/img/new/silhouette2.jpg);
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Proxima Nova Bold' sans-serif; }
+  #call-to-action .cta-title {
+    font-size: 60px !important; }
+  #call-to-action .cta-text {
+    font-size: 25px;
+    text-align: justify;
+    font-weight: 300; }
 
 /*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuL2Nzcy9tYWluLmNzcyIsInNvdXJjZVJvb3QiOiIifQ==*/
