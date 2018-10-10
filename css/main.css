@@ -3,7 +3,7 @@
   height: 100vh;
   position: relative;
   background-color: gray;
-  background-image: url("/innova/wp-content/themes/innova/img/new/faro.png");
+  background-image: url("/wp-content/themes/innova/img/new/faro.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -13,7 +13,7 @@
   z-index: 100; }
 
 #about {
-  background-image: url("/innova/wp-content/themes/innova/img/new/splash.jpg");
+  background-image: url("/wp-content/themes/innova/img/new/splash.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -31,7 +31,7 @@
   font-family: 'Proxima Nova Bold' sans-serif !important; }
 
 #call-to-action {
-  background-image: url("/innova/wp-content/themes/innova/img/new/silhouette2.jpg");
+  background-image: url("/wp-content/themes/innova/img/new/silhouette2.jpg");
   height: 700px;
   background-position: center;
   background-repeat: no-repeat;

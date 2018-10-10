@@ -11,7 +11,7 @@
   font-family: 'Proxima Nova Bold';
   font-style: normal;
   font-weight: normal;
-  src: local('Proxima Nova Bold'), url('/innova/wp-content/themes/innova/fonts/ProximaNovaBold.woff') format('woff')
+  src: local('Proxima Nova Bold'), url('/wp-content/themes/innova/fonts/ProximaNovaBold.woff') format('woff')
 
 }
 
