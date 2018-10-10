@@ -22,7 +22,9 @@ const stylesConfig = Object.assign({}, config, {
     rules: [
       {
         test: /\.(sass|css)$/,
-        loader: ExtractTextPlugin.extract(['css-loader', 'sass-loader'])
+        loader: ExtractTextPlugin.extract(['css-loader', 'sass-loader']),
+        // loaders: ['style-loader', 'css-loader', 'resolve-url-loader' , 'sass-loader?sourceMap']
+
       }
     ]
   },
@@ -35,6 +37,7 @@ const stylesConfig = Object.assign({}, config, {
     ? [
       new ExtractTextPlugin({filename: './css/[name].css', allChunks: true}),
       new LiveReloadPlugin()
+
     ]
     : [
       new webpack.DefinePlugin({
