@@ -3,14 +3,62 @@
   height: 100vh;
   position: relative;
   background-color: gray;
-  background-image: url("/wp-content/themes/innova/img/new/faro.png");
+  background-image: url("/wp-content/themes/innova/img/new/faroNew.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
 
 .intro-text {
-  font-family: 'Proxima Nova Bold' sans-serif !important;
+  font-family: 'Proxima Nova Bold', sans-serif;
   z-index: 100; }
+
+.nav-menu li a {
+  font-family: "Raleway", sans-serif;
+  font-weight: light;
+  font-size: 20px;
+  text-transform: uppercase; }
+
+#header #logo img {
+  margin-top: 0;
+  max-width: 250px; }
+
+#nav-menu-container li {
+  padding-top: 5px; }
+
+.btn-innova {
+  height: 35px;
+  background-color: #E63B10;
+  font-weight: bolder; }
+  .btn-innova a {
+    font-family: 'Gilroy-Bold', sans-serif !important; }
+
+.intro-text {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start; }
+
+.intro-text-inner {
+  position: relative;
+  float: left;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  flex-direction: column; }
+  .intro-text-inner h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    color: white;
+    margin: 0; }
+  .intro-text-inner h2 {
+    margin: 0 !important;
+    margin-top: 10px !important;
+    font-family: 'Gilroy-Bold', sans-serif !important;
+    font-size: 50px !important; }
+  .intro-text-inner a {
+    font-family: "Raleway", sans-serif !important;
+    font-weight: normal !important; }
 
 #about {
   background-image: url("/wp-content/themes/innova/img/new/splash.jpg");

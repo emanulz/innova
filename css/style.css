@@ -74,13 +74,13 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   padding: 0 0 30px 0;
-  height: 92px;
+  max-height: 120px;
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
   transition: all 0.5s;
-  z-index: 997;
+  z-index: 900;
 }
 
 #header #logo {
@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0;
   margin-top: 10px;
-  max-width: 230px;
+  max-width: 200px;
 }
 
 @media (max-width: 768px) {
@@ -149,11 +149,6 @@ h1, h2, h3, h4, h5, h6 {
   top: 250px;
   right: 0;
   height: calc(50% - 60px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
 }
 
 #intro h2 {
@@ -190,10 +185,10 @@ h1, h2, h3, h4, h5, h6 {
 #intro .btn-get-started {
   font-family: "Proxima Nova Bold", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 22px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 8px 28px;
+  padding: 10px 30px;
   transition: 0.5s;
   margin: 10px;
   border: 2px solid #fff;
@@ -201,8 +196,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .btn-get-started:hover {
-  color: #1dc8cd;
-  background: #fff;
+  color: #fff;
+  background: #E63B10;
 }
 
 #intro .product-screens {

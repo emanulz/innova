@@ -15,6 +15,8 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,400i,700,700i,800,900" rel="stylesheet">
+  <link href="<?php echo get_template_directory_uri(); ?>/fonts/gilroy.css" rel="stylesheet">
   <!-- Bootstrap CSS File -->
   <link href="<?php echo get_template_directory_uri(); ?>/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -53,7 +55,7 @@
         <!-- <h1><a href="#intro" class="scrollto">Innova</a></h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
 
-        <a href="#intro"><img src="<?php echo get_bloginfo('template_url') ?>/img/logoInnova.png" alt="Innova"></a>
+        <a href="#intro"><img src="<?php echo get_bloginfo('template_url') ?>/img/logoInnovaNew.png" alt="Innova"></a>
       </div>
 
       <nav id="nav-menu-container">
@@ -81,7 +83,7 @@
               <li><a href="#">Elemento 5</a></li>
             </ul>
           </li> -->
-          <li><a href="#contact">Contacto</a></li>
+          <li class="btn-innova"><a href="#contact">Contacto</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -93,10 +95,12 @@
   <section id="intro">
 
     <div class="intro-text">
-      <h2>Bienvenido a Innova</h2>
-      <p>Guiamos a nuestros clientes para
-        hacer brillar su marca en el camino de la grandeza.</p>
-      <a href="#about" class="btn-get-started scrollto">Información</a>
+      <div class="intro-text-inner">
+        <h3>GUIAMOS A NUESTROS CLIENTES PARA HACER</h3>
+        <h3>BRILLAR SU MARCA EN EL CAMINO DE LA</h3>
+        <h2>GRANDEZA</h2>
+        <a href="#about" class="btn-get-started scrollto">CONTÁCTANOS</a>
+      </div>
     </div>
 
     <!-- <div class="product-screens">
