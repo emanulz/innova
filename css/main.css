@@ -79,7 +79,7 @@
   font-family: 'Proxima Nova Bold' sans-serif !important; }
 
 #call-to-action {
-  background-image: url(/wp-content/themes/innova/img/new/silhouette2.jpg);
+  background-image: url("/wp-content/themes/innova/img/new/silhouette2.jpg");
   height: 700px;
   background-position: center;
   background-repeat: no-repeat;
