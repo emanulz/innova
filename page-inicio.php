@@ -276,8 +276,6 @@
 
         <div class="section-header">
           <h3 class="section-title">Servicios Adicionales</h3>
-          <span class="section-divider"></span>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
         </div>
 
         <div class="row">
@@ -301,22 +299,23 @@
           <div class="col-lg-6">
             <div class="box wow fadeInLeft">
               <div class="icon"><i class="ion-laptop"></i></div>
-              <h4 class="title"><a href="">Mantenimiento de Software y Hardware</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur trinige zareta lobur trade.</p>
+              <h4 class="title"><a href="">Sistemas Integrados de control</a></h4>
+              <p class="description">Texto aquí.</p>
             </div>
           </div>
 
           <div class="col-lg-6">
             <div class="box wow fadeInRight">
-              <div class="icon"><i class="ion-wifi"></i></div>
-              <h4 class="title"><a href="">Integración de Redes y sistemas</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum rideta zanox satirente madera</p>
+              <div class="icon"><i class="ion-android-cart"></i></div>
+              <h4 class="title"><a href="">Comercio en Línea</a></h4>
+              <p class="description">Texto aquí.</p>
             </div>
           </div>
 
         </div>
       </div>
-    </section><!-- #more-features -->
+    </section>
+    <!-- #more-features -->
 
     <!--==========================
       Clients
@@ -359,15 +358,12 @@
     <!--==========================
       Pricing Section
     ============================-->
-    <section id="pricing" class="section-bg">
+    <!-- <section id="pricing" class="section-bg">
       <div class="container">
 
         <div class="section-header">
           <h3 class="section-title">Precios</h3>
           <span class="section-divider"></span>
-          <!--==========================
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-          ============================-->
         </div>
 
         <div class="row">
@@ -413,7 +409,8 @@
 
         </div>
       </div>
-    </section><!-- #pricing -->
+    </section> -->
+    <!-- #pricing -->
 
 
     <!--==========================
@@ -558,11 +555,11 @@
         </div>
 
       </div>
-    </section><!-- #team --> -->
-
-    <!--==========================
+    </section>
+    ==========================
       Gallery Section
-    ============================-->
+    ============================
+    -->
     <section id="gallery">
       <div class="container-fluid">
         <div class="section-header">

@@ -28,14 +28,16 @@
 .btn-innova {
   height: 35px;
   background-color: #E63B10;
-  font-weight: bolder; }
-  .btn-innova a {
-    font-family: 'Gilroy-Bold', sans-serif !important; }
-
-.intro-text {
+  font-weight: bolder;
   display: flex;
   flex-flow: row;
   justify-content: flex-start; }
+  .btn-innova a {
+    font-family: 'Gilroy-Bold', sans-serif !important; }
+
+.btn-get-started:hover {
+  color: #fff;
+  background: #E63B10; }
 
 .intro-text-inner {
   position: relative;
@@ -78,6 +80,13 @@
     text-align: justify; }
   #about .content {
     margin-top: 70px; }
+
+.back-to-top {
+  background-color: #E63B10; }
+  .back-to-top:hover {
+    background-color: #fff;
+    color: #E63B10;
+    border: 1px solid #E63B10; }
 
 #features {
   background-color: #E63B10;
@@ -129,5 +138,45 @@
     font-family: "Raleway", sans-serif !important;
     font-size: 25px;
     text-align: justify; }
+  #call-to-action .cta-btn {
+    background-color: #E63B10;
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    width: 250px;
+    height: 50px;
+    line-height: 35px; }
+
+#more-features .section-title {
+  text-transform: uppercase;
+  font-family: 'Gilroy-Bold', sans-serif !important;
+  color: #E63B10;
+  font-size: 35px; }
+
+#more-features .section-divider {
+  background: #E63B10; }
+
+#more-features .icon i:before {
+  background: #E63B10;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+#contact {
+  font-family: "Raleway", sans-serif; }
+  #contact h3 {
+    color: #E63B10;
+    font-family: 'Gilroy-Bold', sans-serif !important; }
+  #contact .social-links a {
+    color: #E63B10;
+    border: 1px solid #E63B10; }
+    #contact .social-links a:hover {
+      background: #E63B10;
+      color: #fff; }
+  #contact .info i {
+    color: #E63B10; }
+  #contact .form button {
+    background: #E63B10;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif; }
 
 /*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuL2Nzcy9tYWluLmNzcyIsInNvdXJjZVJvb3QiOiIifQ==*/
