@@ -627,7 +627,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #features .title a {
-  color: #111;
+  color: white;
 }
 
 #features .description {
@@ -731,27 +731,30 @@ body.mobile-nav-active #mobile-nav-toggle {
   #call-to-action .cta-btn-container {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
   }
 }
 
 #call-to-action .cta-btn {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
+  font-size: 22px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 30px;
-  border-radius: 25px;
   transition: background 0.5s;
   margin: 10px;
-  border: 2px solid #fff;
+  border: 2px none;
   color: #fff;
+  font-family: "Raleway", sans-serif;
+  background-color: #E63B10;
+  text-transform: uppercase;
+  width: 250px;
+  height: 50px;
+  line-height: 35px
 }
 
 #call-to-action .cta-btn:hover {
-  background: #1dc8cd;
-  border: 2px solid #1dc8cd;
+  background: none;
+  border: 2px solid #fff;
 }
 
 /* More Features Section

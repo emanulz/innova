@@ -99,7 +99,7 @@
         <h3>GUIAMOS A NUESTROS CLIENTES PARA HACER</h3>
         <h3>BRILLAR SU MARCA EN EL CAMINO DE LA</h3>
         <h2>GRANDEZA</h2>
-        <a href="#about" class="btn-get-started scrollto">CONTÁCTANOS</a>
+        <a href="#contact" class="btn-get-started scrollto">CONTÁCTANOS</a>
       </div>
     </div>
 
@@ -128,24 +128,11 @@
     ============================-->
     <section id="about" class="section-bg">
       <div class="container">
-        <div class="section-header">
-          <h3 class="section-title">Sobre Nosotros</h3>
-          <span class="section-divider"></span>
-          <p class="section-description">
-            Somos una empresa de comunicación especialista en marca, <br> posicionamiento y gestión estratégica de la marca.
-
-          </p>
-        </div>
   
         <div class="row">
-        <!--
-          <div class="col-lg-6 about-img wow fadeInLeft">
-            <img src="<?php echo get_bloginfo('template_url') ?>/img/new/splash.jpg" alt="">
-          </div>
-          -->
-
-          <div class="col-lg-6 content wow fadeInRight">
-            <h2>Parte de nuestra esencia</h2>
+        
+          <div class="col-md-7 offset-md-5 content wow fadeInLeft">
+            <h2>NUESTRA ESENCIA</h2>
             <!-- <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3> -->
             <p>
               Creemos en la importancia de una identidad de marca que exprese y comunique la esencia de su empresa.
@@ -155,19 +142,8 @@
               <br>
               <br>
               Comprendemos la importancia de expresarse en el momento correcto por los medios correctos.
-
-
             </p>
 
-            <!-- <ul>
-              <li><i class="ion-android-checkmark-circle"></i> <p>Creemos en la importancia de una identidad de marca que exprese y comunique la esencia de su empresa.</p></li>
-              <li><i class="ion-android-checkmark-circle"></i> Creemos en la necesidad de contar bien la historia, la personalidad de su marca, ya que los clientes necesitan conocerla, vivirla, recordarla y contarla.</li>
-              <li><i class="ion-android-checkmark-circle"></i> Comprendemos la importancia de expresarse en el momento correcto por los medios correctos.</li>
-            </ul> -->
-
-            <!-- <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Libero justo laoreet sit amet cursus sit amet dictum sit. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec
-            </p> -->
           </div>
         </div>
 
@@ -184,8 +160,7 @@
 
           <div class="col-lg-12">
             <div class="section-header wow fadeIn" data-wow-duration="1s">
-              <h3 class="section-title">Nuestras especialidades</h3>
-              <span class="section-divider"></span>
+              <h3 class="section-title">NUESTRAS ESPECIALIDADES</h3>
             </div>
           </div>
 
@@ -194,24 +169,24 @@
             <div class="row">
 
               <div class="col-lg-6 col-md-6 box wow fadeInRight">
-                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+                <div class="img-icon"><img src="<?php echo get_bloginfo('template_url') ?>/img/icons/branding.png" alt=""></div>
                 <h4 class="title"><a href="">Branding</a></h4>
-                <p class="description">Asesoramos a nuestros clientes para construir y desarrollar la identidad visual, verbal y social, fortaleciendo  los elementos integradores de la esencia de marca.</p>
+                <p class="description">Asesoramos a nuestros clientes para construir y desarrollar la identidad visual, verbal y social, fortaleciendo los elementos integradores de la esencia de marca.</p>
               </div>
               <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.1s">
-                <div class="icon"><i class="ion-ios-flask-outline"></i></div>
+                <div class="img-icon"><img src="<?php echo get_bloginfo('template_url') ?>/img/icons/development.png" alt=""></div>
                 <h4 class="title"><a href="">Desarrollo y sitio web</a></h4>
                 <p class="description">Materializamos la imagen visual, estilo y lenguaje para permanecer en el tiempo, con herramientas que acercan la empresa al cliente.</p>
               </div>
               <div class="col-lg-6 col-md-6 box wow fadeInRight data-wow-delay="0.2s"">
-                <div class="icon"><i class="ion-social-buffer-outline"></i></div>
+                <div class="img-icon"><img src="<?php echo get_bloginfo('template_url') ?>/img/icons/comunicacion.png" alt=""></div>
                 <h4 class="title"><a href="">Comunicación</a></h4>
                 <p class="description">Desarrollamos estrategias de comunicación para la sostenibilidad y desarrollo de su empresa, con objetivos claros y enfocados en su target.</p>
               </div>
               <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.3s">
-                <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-                <h4 class="title"><a href="">Producción gráfica</a></h4>
-                <p class="description">Elaboramos contenido creativo y con un mensaje dirigido que conecta su marca a los sentidos del cliente.</p>
+                <div class="img-icon"><img src="<?php echo get_bloginfo('template_url') ?>/img/icons/consoulting.png" alt=""></div>
+                <h4 class="title"><a href="">Consultoría</a></h4>
+                <p class="description">La Consultoría Estratégica es la aportación diferenciadora de Innova a los proyectos. A través del conocimiento, podemos sumar nuestra particular visión y experiencia.</p>
               </div>
             </div>
 
@@ -235,10 +210,7 @@
               <img src="<?php echo get_bloginfo('template_url') ?>/img/new/kayaks2.jpg" alt="" class="advanced-feature-img-right wow fadeInRight">
               <div class="wow fadeInLeft">
                 <h2>Branding</h2>
-                <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
-                <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
                 <p class="wow fadeInRight" data-wow-duration="0.5s">Desarrollar una adecuada identidad visual, verbal y social, permiten a la marca expresarse en su más amplia dimensión.</p>
-                <i class="ion-ios-barcode-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
                 <p class="wow fadeInRight" data-wow-duration="0.5s">Definir la esencia de la marca es una clave para toda empresa que desee caminar sosteniblemente hacia la grandeza.</p>
               </div>
             </div>
@@ -253,12 +225,8 @@
               <img src="<?php echo get_bloginfo('template_url') ?>/img/new/macbook2.jpg" alt="" class="advanced-feature-img-left">
               <div class="wow fadeInRight">
                 <h2>Desarrollo de sitios web y aplicaciones</h2>
-                <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
-                <p class="wow fadeInRight" data-wow-duration="0.5s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                <i class="ion-ios-color-filter-outline wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>
-                <p class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-                <i class="ion-ios-barcode-outline wow fadeInRight" data-wow-delay="0.4" data-wow-duration="0.5s"></i>
-                <p class="wow fadeInRight" data-wow-delay="0.4s" data-wow-duration="0.5s">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <p class="wow fadeInRight" data-wow-duration="0.5s">Tu web es solo una herramienta más que te ayudará a vender más y mejor. No basta con tener una web con un diseño espectacular, sino que tiene que estar diseñada y alineada una estrategia que va mucho más allá de tener una presencia online de tu marca.</p>
+                <p class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s">En Innova desarrollamos páginas webs que se encuentran perfectamente integradas dentro de nuestras estrategias de Inbound Marketing. Hacemos que todo el tráfico cualificado que hemos captado para tu web se convierta en clientes con los que poder seguir trabajando en fases posteriores.</p>
               </div>
             </div>
           </div>
@@ -268,14 +236,11 @@
       <div class="features-row section-bg">
         <div class="container">
           <div class="row">
-            <div class="col-12">
-
-              <!-- <img src="<?php echo get_bloginfo('template_url') ?>/img/advanced-feature-3.jpg" alt="" class="advanced-feature-img-right wow fadeInRight"> -->
+            <div class="col-xs-12">
               <img src="<?php echo get_bloginfo('template_url') ?>/img/new/sound2.jpg" alt="" class="advanced-feature-img-right wow fadeInRight">
               <div class="wow fadeInLeft">
                 <h2>Investigación</h2>
-                <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
-                <p>Conocer la opinión de nuestros clientes, gustos y preferencias, conectar la esencia de la empresa con los sentidos del cliente y saber que piensan de nosotros es una apuesta estratégica en las empresas de primer orden, con estándares que responden a la fidelización del cliente.</p>
+                <p>Conocer la opinión de los clientes acerca de tu negocio, gustos y preferencias, conectar la esencia de la empresa con los sentidos del cliente y saber que piensan, es una apuesta estratégica en las empresas de primer orden, con estándares que responden a la fidelización del cliente.</p>
               </div>
             </div>
           </div>
@@ -289,12 +254,14 @@
     <section id="call-to-action">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 text-center text-lg-left">
-            <h3 class="cta-title">Innova</h3>
-            <p class="cta-text"> Ofrecemos servicios estratégicos y creativos que mejoran y magnifican su marca, para desempeñar un papel significativo en la vida de los clientes y así seguir construyendo su negocio.</p>
+          <div class="col-xs-12 text-center text-lg-left">
+            <h3 class="cta-title">NO TENDRÁS UNA SEGUNDA OPORTUNIDAD DE CAUSAR UNA GRATA PRIMERA IMPRESIÓN EN TUS CLIENTES</h3>
+            <div class="col-md-6 offset-md-6">
+              <p class="cta-text"> Ofrecemos servicios estratégicos y creativos que mejoran y magnifican su marca, para desempeñar un papel significativo en la vida de los clientes y así seguir construyendo su negocio.</p>
+            </div>
           </div>
-          <div class="col-lg-6 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Contacto</a>
+          <div class="col-md-6 offset-md-6 cta-btn-container text-center">
+            <a class="cta-btn align-center" href="#">Contáctanos</a>
           </div>
         </div>
 
