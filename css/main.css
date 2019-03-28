@@ -21,9 +21,18 @@
 #header #logo img {
   margin-top: 0;
   max-width: 250px; }
+  @media screen and (max-width: 1000px) {
+    #header #logo img {
+      max-width: 200px; } }
 
 #nav-menu-container li {
   padding-top: 5px; }
+  @media screen and (max-width: 1000px) {
+    #nav-menu-container li.no-medium {
+      display: none; } }
+  @media screen and (max-width: 768px) {
+    #nav-menu-container li {
+      padding-top: 0; } }
 
 .btn-innova {
   height: 35px;
@@ -44,6 +53,7 @@
   float: left;
   width: 50%;
   display: flex;
+  margin-left: 50px;
   align-items: center;
   justify-content: flex-start;
   text-align: center;

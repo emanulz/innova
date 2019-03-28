@@ -60,12 +60,12 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#intro">Inicio</a></li>
+          <li class="menu-active no-medium"><a href="#intro">Inicio</a></li>
           <li><a href="#about">Nosotros</a></li>
           <li><a href="#features">Especialidades</a></li>
-          <li><a href="#pricing">Precios</a></li>
+          <!-- <li><a href="#pricing">Precios</a></li> -->
           <!-- <li><a href="#team">Equipo</a></li> -->
-          <li><a href="#gallery">Galería</a></li>
+          <li class="no-medium"><a href="#gallery">Galería</a></li>
           <!-- <li class="menu-has-children"><a href="">Blog</a>
             <ul>
               <li><a href="#">Elemento 1</a></li>

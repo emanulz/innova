@@ -19,8 +19,16 @@
 #header #logo img
   margin-top: 0
   max-width: 250px
+  @media screen and (max-width: 1000px)
+    max-width: 200px
+
 #nav-menu-container li
   padding-top: 5px
+  &.no-medium
+    @media screen and (max-width: 1000px)
+      display: none
+  @media screen and (max-width: 768px)
+    padding-top: 0
 .btn-innova
   height: 35px
   background-color: $PRIMARY-COLOR-ACCENT
@@ -40,6 +48,7 @@
   float: left
   width: 50%
   display: flex
+  margin-left: 50px
   align-items: center
   justify-content: flex-start
   text-align: center
