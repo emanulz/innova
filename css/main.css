@@ -136,7 +136,7 @@
   text-align: justify; }
 
 #call-to-action {
-  height: 700px;
+  min-height: 700px;
   background-image: url("/wp-content/themes/innova/img/new/silhouette2.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
